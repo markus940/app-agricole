@@ -1,0 +1,383 @@
+{
+  "blé": {
+    "sol": "Limoneux, sablo-limoneux ou argileux (types Fondé, Hollaldé)",
+    "semis": {
+      "periode": "15 novembre - 15 décembre",
+      "dose_ligne": "120 kg/ha (écartement 25 cm)",
+      "dose_volee": "160 kg/ha"
+    },
+    "irrigation": {
+      "besoin_total": "650 mm (6500 m3/ha) sur le cycle",
+      "frequence": "10 à 12 irrigations gravitaires, tous les 7-10 jours",
+      "arret": "Arrêt possible au stade pâteux (remplissage des grains)"
+    },
+    "fertilisation": {
+      "fond": "NPK 15-15-5 à 350 kg/ha (au travail du sol)",
+      "couverture_1": "100 kg/ha d'urée entre le 15e et 20e JAS",
+      "couverture_2": "150 kg/ha d'urée entre le 35e et 45e JAS"
+    },
+    "phytosanitaire": {
+      "adventices": "Pendiméthaline 1,5 L/ha (2-3 JAS) ; 2-4D 2 L/ha (20-25 JAS)",
+      "ravageurs": "Decis 25 CE à 0,5 L/ha si chenilles/pucerons",
+      "maladies": "Fongicide (ex: Spinomyl 50 PM, 300 g/ha) dès l'épiaison (60 JAS)"
+    },
+    "recolte": "Grains jaunes/dorés, humidité 10-12%, battage à la batteuse ASI"
+  },
+  "riz": {
+    "varietes": "Sahel 201 (115-120j), Sahel 202 (120j), Sahel 108 (90j)",
+    "sol": "Labour tous les 4 ans, offsettage annuel, planage",
+    "semis": {
+      "dose_semis_direct": "120 kg/ha (semis à la volée)",
+      "dose_pepiniere": "40 kg/ha de semence certifiée",
+      "pregermination": "Trempage 24h + incubation 24-48h avant semis",
+      "repiquage": "23-25 JAS, écartement 20 cm entre plants"
+    },
+    "irrigation": {
+      "besoin": "Ne doit pas souffrir d'un manque d'eau, de l'initiation paniculaire au stade pâteux",
+      "lame_eau_semis": "5 à 10 cm au semis"
+    },
+    "fertilisation": {
+      "fond": "100 kg/ha de DAP ou TSP à l'offsettage",
+      "couverture_1": "120 kg/ha d'urée en début tallage (20-22 JAS)",
+      "couverture_2": "120 kg/ha d'urée à l'initiation paniculaire",
+      "couverture_3": "60 kg/ha d'urée au stade montaison-épiaison"
+    },
+    "phytosanitaire": {
+      "adventices": "Propanil + 2,4D, 6-8 L/ha (6L propanil + 1L 2,4D) à 15-21 JAS",
+      "ravageurs": "Bonne gestion de la lame d'eau contre les foreurs de tige",
+      "traitement_semence": "Semences traitées avec insecticide + fongicide"
+    },
+    "recolte": "Drainage 15-20j avant récolte, quand 80% des panicules jaunissent, stockage à 12% d'humidité"
+  },
+  "poivron": {
+    "sol": "Ni trop lourd ni trop léger, profond, bien drainé, riche en matières organiques",
+    "preparation_sol": "150-250 kg/100m² de matières organiques + 5 kg/100m² d'engrais 10-10-20",
+    "semis": {
+      "periode": "Septembre à février",
+      "pepiniere": "2 g de graines / 2 m² de pépinière pour 100 m² de culture",
+      "repiquage": "Après 30-45 jours (4-5 vraies feuilles, 10-12 cm), écartement 0,4-0,5 m en quinconce"
+    },
+    "irrigation": {
+      "debut_cycle": "20 m3/ha/jour",
+      "floraison_recolte": "30 à 60 m3/ha/jour",
+      "plante_adulte": "11,8 L/m2/jour",
+      "note": "Arrosages d'appoint en saison pluvieuse pendant les pauses sèches"
+    },
+    "fertilisation": {
+      "entretien": "2 kg/100m² d'engrais 10-10-20 à 15, 30, 50 et 80 jours après repiquage"
+    },
+    "phytosanitaire": {
+      "faux_vers_roses": "Cyperméthrine, fenvalérate ou deltaméthrine",
+      "chenilles": "Acéphate, endosulfan ou deltaméthrine",
+      "mouche_des_fruits": "Détruire fruits piqués, pièges à phéromones, huile de neem ou spinosad",
+      "oidium": "Soufre, triadiméfon ou triforine",
+      "maladies_virales": "Lutter contre les pucerons, brûler les plantes atteintes"
+    },
+    "recolte": "60-80 jours après repiquage, rendement 100-300 kg/100m², couper avec le pédoncule",
+    "contraintes": "Ne pas cultiver après tomate/aubergine/piment/pomme de terre avant 3 ans ; protéger du vent ; plante de pleine lumière"
+  },
+  "piment": {
+    "sol": "Sols ni trop légers, bien drainés, riches en matières organiques",
+    "climat": "Température moyenne idéale 24°C ; en dessous de 15°C, mauvaise fructification",
+    "preparation_sol": "150-200 kg/100m² de matières organiques + 3 kg/100m² d'engrais 10-10-20",
+    "semis": {
+      "periode": "Toute l'année",
+      "duree_pepiniere": "45 à 60 jours",
+      "semis": "2-3 graines/trou à 1 cm de profondeur, écartement pépinière 5x10 cm",
+      "repiquage": "Quand 10-15 cm de hauteur / 6-8 vraies feuilles, écartement 0,4-0,8 m en lignes doubles"
+    },
+    "irrigation": {
+      "note": "Alimentation régulière en eau, surtout en début de culture, importante pour le rendement"
+    },
+    "fertilisation": {
+      "entretien": "1,5 kg/100m² d'engrais 10-10-20 tous les 2-4 semaines après repiquage"
+    },
+    "phytosanitaire": {
+      "mouche_des_fruits": "Récolter/brûler fruits infectés, diméthoate ou malathion",
+      "chenilles": "Deltaméthrine, cyperméthrine ou fenvalérate",
+      "oidium": "Variétés tolérantes ou traitement au soufre",
+      "galle_bacterienne": "Cuivre micronisé ou oxychlorure de cuivre",
+      "maladies_virales": "Lutter contre les pucerons, brûler les plantes infectées"
+    },
+    "recolte": "Rendement 8-16 (jusqu'à 20) T/ha, récolte hebdo/bimensuelle sur ~18 mois, couper avec le pédoncule à maturité",
+    "avantages": "Récolte étalée sur 18 mois, peu d'entretien une fois installé, forte valeur économique",
+    "contraintes": "Mise en place demandant beaucoup de main d'œuvre"
+  },
+  "tomate": {
+    "sol": "Sols riches et drainants, meubles, exigeante en fertilisation, craint les excès d'eau racinaire",
+    "climat": "Plante tropicale, exigeante en température et humidité ; culture optimale sous abri",
+    "rotation": "Éviter les solanacées à la suite (4 ans conseillés) pour limiter les nématodes",
+    "semis": {
+      "pepiniere": "35 à 60 jours en plaques alvéolées dès plus de 20°C sous abri",
+      "plantation": "Sous serre fin-mars (sol à 12°C), plein champ courant mai, au stade 6-7 feuilles",
+      "densite": "2 à 2,5 pieds/m² ; espacement 30-45 cm (non greffé) à 60-80 cm (greffé, 2 têtes)"
+    },
+    "irrigation": {
+      "systeme": "Goutte-à-goutte obligatoire ; aspersion sous abri seulement pour l'hygrométrie",
+      "besoin_pic": "Jusqu'à 164 mm/mois en juillet, 3 apports de 20 min/jour sur sol sableux",
+      "risque": "Irrégularité = cul-noir (nécrose apicale) et fruits de faible calibre"
+    },
+    "fertilisation": {
+      "azote": "150-200 U/ha",
+      "phosphore": "120-180 U/ha",
+      "potasse": "250-350 U/ha (besoin élevé)",
+      "note": "Fourchette basse en plein champ, haute sous abri ; sensible au cul-noir, chaulage possible (1T/ha/an de CaO)"
+    },
+    "entretien": "Tuteurage (cannes, ficelle, palissage), ébourgeonnage régulier, paillage systématique contre l'enherbement",
+    "phytosanitaire": {
+      "pucerons": "Élimination des foyers, auxiliaires (coccinelle, syrphe, Aphidius), savon potassique 1%",
+      "tuta_absoluta": "Bacillus thuringiensis (1kg/ha/semaine), pièges à phéromones, confusion sexuelle sous abri",
+      "acariens": "Blanchiment des serres, soufre mouillable 750g/hl, prédateurs (Macropholus, Amblyseius)",
+      "mildiou": "Traitement cuivre 1kg/ha (max 4kg/ha/an en bio), aération des serres"
+    },
+    "recolte": "Débute 2,5 mois après plantation, rendement 4,5-8 kg/pied (15% de fruits déclassés)"
+  },
+  "maïs": {
+    "sol": "Argilo-limoneux, limoneux argileux, argilo-sableux ou gravillonnaire ; éviter sols trop sableux ou mal drainés",
+    "rotation": "Bons précédents : cotonnier, légumineuses (arachide, niébé, soja), sésame, tubercules. À éviter : sorgho, mil",
+    "semis": {
+      "periode": "Nord Bénin : 15 mai-15 juin ; Sud : 15 mars-15 avril (1ère saison) et 15 juin-15 juillet (2e saison)",
+      "dose": "12-15 kg/ha (précoces/intermédiaires) à 15-20 kg/ha (extra-précoces)",
+      "densite": "83 000 plants/ha (extra-précoces, 0,80x0,30 m) à 62 500 plants/ha (intermédiaires, 0,80x0,40 m)",
+      "traitement_semence": "Insecticide fongicide (Calthio mix, Montaz WS) contre fontes de semis, termites, rongeurs"
+    },
+    "entretien": {
+      "demariage": "15 jours après la levée, garder 2 plants/poquet",
+      "sarclage": "2 sarclages minimum : 15-20e JAL puis 3 semaines après le 1er",
+      "desherbage": "Herbicide de prélevée sélectif, ou herbicides sélectifs de post-levée (nicosulfuron, 2-4D) 2-3 semaines après levée"
+    },
+    "fertilisation": {
+      "organique": "Au moins 5 t/ha tous les 2 ans (fumier ou compost bien décomposé)",
+      "fumure_legere": "NPK 150 kg/ha à 15 JAL + urée 50 kg/ha à 30 JAL",
+      "fumure_intermediaire": "NPK 150 kg/ha à 15 JAL + urée 100 kg/ha à 30 et 45 JAL",
+      "fumure_forte": "NPK 200 kg/ha à 15 JAL + urée 100 kg/ha à 30 et 45 JAL",
+      "potasse": "50-100 kg/ha de KCl ou K2SO4 recommandé si rendement > 6 t/ha"
+    },
+    "phytosanitaire": {
+      "ravageurs": "Peu de dégâts d'insectes ; pucerons et Spodoptera possibles",
+      "traitement": "Thalo plus ou COGA à 3 kg/ha",
+      "note": "La lutte génétique (variétés résistantes) reste la meilleure option"
+    },
+    "recolte": "Manuelle, ~35 jours après floraison générale (75% des spathes jaunies), grains cassants et secs sous la dent",
+    "conservation": "Séchage complet avant stockage ; traitement au Sofagrain ou Actellic (10 g/m²) contre les insectes de stock"
+  },
+  "aubergine": {
+    "sol": "Sols légers, riches en matière organique, bien drainés, pH proche de la neutralité",
+    "climat": "Bien adaptée aux climats tropicaux",
+    "preparation_sol": "100-200 kg/100m² de matières organiques + 4 kg/100m² d'engrais 10-10-20",
+    "semis": {
+      "periode": "Toute l'année, meilleurs rendements en saison sèche",
+      "semis": "2-3 g de graines / 2 m² de pépinière pour 100 m² de culture",
+      "repiquage": "Après 35-40 jours (5-6 vraies feuilles, 10-15 cm), écartement 0,5 m entre lignes et plantes, 1 m entre doubles lignes"
+    },
+    "irrigation": {
+      "semis_levee": "6,4 L/m²/jour",
+      "jeune_plantule": "9,1 L/m²/jour",
+      "plante_adulte": "11,8 L/m²/jour"
+    },
+    "fertilisation": {
+      "entretien": "2 kg/100m² d'engrais 10-10-20 aux 20e, 40e et 60e jours après repiquage"
+    },
+    "phytosanitaire": {
+      "chenilles": "Acéphate, endosulfan ou cyperméthrine",
+      "jassides": "Diméthoate ou acéphate",
+      "ver_des_fleurs": "Methomyl, cyfluthrine ou acéphate",
+      "oidium": "Soufre, triforine, triadimefon ou fenarimol",
+      "stemphyliose_alternariose": "Manèbe, mancozèbe, captafol ou oprodione",
+      "fletrissement_nematodes": "Rotation culturale, éviter les sols lourds et humides"
+    },
+    "recolte": "75-90 jours après repiquage, fruits verts ou blancs selon variété, rendement 10-30 T/ha"
+  },
+  "concombre": {
+    "sol": "Sols lourds (limoneux, argileux), humides mais bien drainés, riches en matières organiques, pH 5,5-6,8",
+    "climat": "Température optimale de développement : 20 à 35°C",
+    "preparation_sol": "300-400 kg/100m² de matières organiques + 4 kg/100m² d'engrais 10-10-20",
+    "semis": {
+      "periode": "Septembre à mars (saison fraîche) ou avril à août (hivernage)",
+      "semis": "2-4 graines/poquet, 10-25 g/100m², profondeur 1-2 cm",
+      "ecartement": "Planches 2-2,5 m de large, lignes écartées de 1,5-2 m, poquets 0,4-0,5 m en quinconce"
+    },
+    "irrigation": {
+      "semis_floraison": "20 à 30 m3/ha/jour",
+      "floraison_recolte": "40 à 50 m3/ha/jour"
+    },
+    "entretien": {
+      "demariage": "1 plant/poquet quand les plants ont 4 feuilles",
+      "taille": "Étêtage à 30 cm de hauteur pour favoriser la ramification",
+      "tuteurage": "Piquets de 2 m, tiges attachées légèrement"
+    },
+    "fertilisation": {
+      "entretien": "2 kg/100m² d'engrais 10-10-20 après 6-8 semaines"
+    },
+    "phytosanitaire": {
+      "mouche_cucurbitacees": "Récolter/détruire fruits attaqués, protection papier journal, diméthoate ou malathion",
+      "thrips": "Diméthoate, diazinon ou acéphate",
+      "cercosporiose": "Bénomyl, diazinon ou acéphate",
+      "nematodes_galles": "Rotation culturale ou nématicides"
+    },
+    "recolte": "40-55 jours, fruits verts de 15-20 cm (diamètre 4-5 cm), rendement 30-50 T/ha (hivernage), 20-40 T/ha (saison sèche)"
+  },
+  "gombo": {
+    "sol": "Sols légers, bien drainés, riches en matières organiques",
+    "climat": "Bien adapté aux étés tropicaux ; pluviométrie ≥ 400 mm en pluvial",
+    "preparation_sol": "100-200 kg/100m² de matières organiques",
+    "semis": {
+      "periode": "Toute l'année, mois frais moins intéressants",
+      "semis": "3 graines/poquet, 50-100 g/100m², tremper les graines la veille",
+      "ecartement": "Lignes écartées de 0,9 m, poquets espacés de 0,4-0,5 m"
+    },
+    "irrigation": {
+      "semis_levee": "2 L/m², 2 fois/jour",
+      "stade_plantule": "4 L/m²/jour",
+      "plante_adulte": "10 L/m² tous les 2 jours",
+      "floraison_maturation": "12 L/m² tous les 3 jours"
+    },
+    "entretien": {
+      "demariage": "1 plant/poquet, 3 semaines après semis (10-15 cm de hauteur)"
+    },
+    "fertilisation": {
+      "entretien": "2 kg/100m² d'engrais 10-10-20 après 50-70 jours"
+    },
+    "phytosanitaire": {
+      "chenilles": "Acéphate, endosulfan ou cyperméthrine",
+      "jassides_altise": "Diméthoate",
+      "oidium": "Soufre, triforine, triadimefon ou fenarimol",
+      "cercosporose": "Manèbe, mancozèbe, captafol ou bénomyl",
+      "fletrissement": "Rotation culturale d'au moins 3 ans",
+      "nematodes": "Rotation culturale"
+    },
+    "recolte": "Cycle 125-160 jours, récolte débute à 50-65 jours et s'étale sur 55-110 jours, rendement 15-30 T/ha"
+  },
+  "pastèque": {
+    "sol": "Sols sablo-limoneux, humides mais bien drainés, riches en matière organique",
+    "climat": "Optimum thermique de développement : 30-32°C",
+    "preparation_sol": "Labour profond 30-35 cm ; 20-30 t/ha de matière organique ; 250 kg/ha de 10-10-20",
+    "semis": {
+      "periode": "Toute l'année",
+      "semis": "3-4 graines/poquet, profondeur 1-2 cm, 25-50 g/100m²",
+      "ecartement": "Planches 2,5-3 m, lignes écartées de 2 m, poquets espacés de 0,75-1 m"
+    },
+    "irrigation": {
+      "note": "Assez tolérante au manque d'eau mais ne pas négliger les arrosages, surtout au grossissement des fruits"
+    },
+    "entretien": {
+      "demariage": "1 à 2 plants/poquet, 3 semaines après semis"
+    },
+    "fertilisation": {
+      "entretien": "2,5 kg/100m² d'engrais 10-10-20, 4 jours après semis"
+    },
+    "phytosanitaire": {
+      "mouche_cucurbitacees": "Récolter/détruire fruits attaqués, papier journal, diméthoate ou malathion",
+      "thrips_cercosporiose": "Diméthoate, diazinon ou acéphate",
+      "nematodes_galles": "Rotation culturale ou nématicides"
+    },
+    "recolte": "65-75 jours, fruits mûrs reconnaissables à la vrille desséchée, rendement 200-450 kg/100m²"
+  },
+  "pomme de terre": {
+    "sol": "Sols profonds et bien drainés ; éviter sols lourds et calcaires",
+    "climat": "Plante de jours courts, végétation optimale à 17°C",
+    "preparation_sol": "Labour profond 1 mois avant + 20-30 t/ha de fumier ; 250 kg/ha de 10-10-20, 15 jours avant plantation",
+    "semis": {
+      "pregermination": "2-3 semaines avant plantation, à l'abri du soleil",
+      "traitement_semences": "Tremper les tubercules dans une solution fongique (ex: Benlate 20g/L, 30 min)",
+      "plantation": "Sillons de 15 cm ou billons de 30 cm ; oct-nov (hâtive), déc-jan (pleine saison), fév-mars (tardive), écartement 40x40 cm, profondeur 8-12 cm"
+    },
+    "irrigation": {
+      "plantation_1mois": "30 m3/ha/jour",
+      "tuberisation": "120 m3/ha/jour",
+      "jaunissement": "20 m3/ha/jour",
+      "arret": "Quand les tubercules commencent à mûrir"
+    },
+    "entretien": {
+      "buttage": "2 buttages : à 10-12 cm de hauteur puis 3 semaines après"
+    },
+    "fertilisation": {
+      "entretien": "250 kg/ha de 10-10-20 juste avant le buttage"
+    },
+    "phytosanitaire": {
+      "courtiliere": "Insecticide micro-granulé du sol",
+      "chenille": "Acéphate, endosulfan ou décaméthrine",
+      "pucerons": "Pyrimicarbe, acéphate ou endosulfan",
+      "acariens": "Endosulfan, malathion ou bromopropylate",
+      "alternariose": "Captafol, manèbe ou mancozèbe-zinc",
+      "pourriture_tubercules": "Tubercules sains, ne pas blesser les tiges, ne pas laisser au sol"
+    },
+    "recolte": "90-130 jours, 10 jours après dessèchement de 50% du feuillage, rendement 10-30 T/ha (hâtive/tardive), 20-40 T/ha (saison)"
+  },
+  "haricot vert": {
+    "sol": "Sols légers, sablo-limoneux, bien drainés",
+    "climat": "Haricot nain : saison fraîche uniquement. Haricot à rames : toute l'année",
+    "preparation_sol": "100-150 kg/100m² de matières organiques + 2 kg/100m² d'engrais 10-10-20",
+    "semis": {
+      "periode": "Octobre à mars (nain), toute l'année (à rames)",
+      "nain": "3 lignes écartées de 0,4 m, 3-4 graines/poquet écartés de 0,4 m",
+      "rames": "2 lignes écartées de 0,7 m, poquets espacés de 0,5 m",
+      "quantite": "0,5-1 kg/100m² (nain), 0,25-0,3 kg/100m² (à rames)"
+    },
+    "irrigation": {
+      "note": "Arrosages journaliers, éviter excès et manque, surtout à la levée, floraison et formation des gousses"
+    },
+    "entretien": {
+      "tuteurage": "Rames de 2,5-3 m pour le haricot à rames"
+    },
+    "fertilisation": {
+      "entretien": "1,5 kg/100m² d'engrais 10-10-20 aux 20e et 40e jours après semis"
+    },
+    "phytosanitaire": {
+      "foreuses_chenilles": "Acéphate, endosulfan ou deltaméthrine",
+      "mylabre": "Ramassage manuel + acéphate, endosulfan ou deltaméthrine",
+      "mouche_haricot": "Détruire les plantes attaquées, carbaryl ou diméthoate",
+      "acariens": "Azocyclotin, cyhexatin ou bromopropylate",
+      "rouille": "Variétés résistantes, manèbe, mancozèbe ou métirame-zinc"
+    },
+    "recolte": "Variable selon le type (filet 16-18 cm, mangetout 12-16 cm, écosser frais 75-85j, écosser sec ~80j) ; rames dès ~70 jours"
+  },
+  "oignon": {
+    "sol": "Sols pas trop lourds, ni gorgés d'eau, riches en matières organiques bien décomposées",
+    "climat": "Culture de saison fraîche et sèche, ne supporte pas la salinité",
+    "preparation_sol": "Fumure de fond : 100-200 kg/100m² de matières organiques + 2,5 kg d'engrais minéral",
+    "semis": {
+      "periode": "Novembre à janvier",
+      "duree_pepiniere": "40 à 55 jours",
+      "semis": "60 g de graines / 12 m² de pépinière pour 100 m² de culture",
+      "repiquage": "À 15 cm de hauteur (5-6 feuilles), 5-7 lignes écartées de 20 cm, espacées de 10 cm"
+    },
+    "irrigation": {
+      "repiquage_bulbaison": "5 mm/jour",
+      "bulbaison_maturite": "10 mm tous les 2 jours",
+      "arret": "Quand 30% des plants ont le feuillage couché"
+    },
+    "fertilisation": {
+      "entretien": "2-3 kg/100m² d'engrais 10-10-20 aux 20e, 40e et 60e jours après repiquage"
+    },
+    "phytosanitaire": {
+      "thrips": "Acéphate, méthomyl, diméthoate, ou variétés tolérantes (ex: Yaakaar)",
+      "racines_roses": "Désinfection Metam sodium, rotations culturales longues",
+      "fusariose": "Rotations longues, bulbes sains, fongicides systémiques",
+      "alternariose": "Iprodione, manèbe ou mancozèbe"
+    },
+    "recolte": "120-190 jours, récolte 10-15 jours après arrêt des arrosages (feuilles aux 2/3 séchées), rendement 20-50 T/ha"
+  },
+  "laitue": {
+    "sol": "Sols limoneux, riches en matière organique et azote, pH 6,8-7,2, sensible à la salinité",
+    "climat": "Culture de saison sèche et froide ; montée en graines si chaleur",
+    "preparation_sol": "Fumure de fond : 150-250 kg/100m² de matières organiques + 2,5 kg d'engrais 10-10-20",
+    "semis": {
+      "periode": "Novembre à avril",
+      "semis": "3-5 g de graines / 3-5 m² de pépinière pour 100 m² de culture",
+      "repiquage": "Après 20-25 jours en pépinière (5-6 feuilles vraies), 3-4 lignes écartées de 25-35 cm"
+    },
+    "irrigation": {
+      "note": "Arrosages journaliers ; manque ou excès d'eau provoque des nécroses sur le feuillage"
+    },
+    "fertilisation": {
+      "entretien": "2,5-4 kg/100m² d'engrais 10-10-20 aux 20e et 40e jours après repiquage"
+    },
+    "phytosanitaire": {
+      "chenilles": "Acéphate, endosulfan ou deltaméthrine",
+      "septoriose": "Manèbe, mancozèbe ou captafol",
+      "nematodes": "Rotations culturales"
+    },
+    "recolte": "30 à 45 jours après repiquage selon les variétés"
+  }
+}
