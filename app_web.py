@@ -70,7 +70,7 @@ with col_title:
 with col_info:
     st.markdown(" ")
     if st.button("🤖 Assistant IA & Photo", type="primary", use_container_width=True):
-        st.switch_page("pages/10_🤖_Assistant_IA.py")
+        st.switch_page("pages/10_assistant_ia.py")
 
 st.divider()
 
@@ -124,28 +124,28 @@ with col_a:
         st.markdown("#### 🗺️ Cartographie & GPS")
         st.write("Visualisez vos parcelles sur carte satellite avec leurs coordonnées GPS.")
         if st.button("Carte Satellite", key="nav_parcelles", use_container_width=True):
-            st.switch_page("pages/3_🌾_Mes_parcelles.py")
+            st.switch_page("pages/3_Mes_parcelles.py")
 
 with col_b:
     with st.container(border=True):
         st.markdown("#### 📦 Magasin & Stocks")
         st.write("Suivez le niveau des réserves d'engrais, semences et phyto avec alerte stock bas.")
         if st.button("Magasin Stocks", key="nav_stocks", use_container_width=True):
-            st.switch_page("pages/11_📦_Gestion_des_stocks.py")
+            st.switch_page("pages/11_Gestion_des_stocks.py")
 
 with col_c:
     with st.container(border=True):
         st.markdown("#### 🌱 Rotation & Pluie")
         st.write("Recommandations d'assolement de sol et relevés de pluviométrie en mm.")
         if st.button("Rotation & Pluie", key="nav_rot", use_container_width=True):
-            st.switch_page("pages/13_🌱_Rotation_des_cultures.py")
+            st.switch_page("pages/13_Rotation_des_cultures.py")
 
 with col_d:
     with st.container(border=True):
         st.markdown("#### 📞 Carnet d'Adresses")
         st.write("Gérez vos contacts d'acheteurs grossistes et fournisseurs d'intrants.")
         if st.button("Carnet d'Adresses", key="nav_ctc", use_container_width=True):
-            st.switch_page("pages/12_📞_Carnet_d_adresses.py")
+            st.switch_page("pages/12_Carnet_d_adresses.py")
 
 st.divider()
 
@@ -155,7 +155,7 @@ with col_left:
     st.subheader("📄 Bilan PDF & Exports Excel")
     st.write("Téléchargez vos rapports financiers complets en **PDF imprimable**, **Excel** ou **CSV**.")
     if st.button("Générer Bilan PDF / Excel", key="nav_pdf_rent", use_container_width=True):
-        st.switch_page("pages/8_📊_Rentabilité.py")
+        st.switch_page("pages/8_Rentabilité.py")
 
 with col_right:
     st.subheader("🔒 Sauvegarde SQLite & Restauration")
