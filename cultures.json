@@ -21,7 +21,40 @@
       "ravageurs": "Decis 25 CE à 0,5 L/ha si chenilles/pucerons",
       "maladies": "Fongicide (ex: Spinomyl 50 PM, 300 g/ha) dès l'épiaison (60 JAS)"
     },
-    "recolte": "Grains jaunes/dorés, humidité 10-12%, battage à la batteuse ASI"
+    "recolte": "Grains jaunes/dorés, humidité 10-12%, battage à la batteuse ASI",
+    "calculateur": {
+      "unite": "ha",
+      "surface_ref": 1,
+      "engrais_kg": 600,
+      "semences_kg": 120,
+      "rendement_kg": null
+    },
+    "calendrier": [
+      {
+        "jour": 3,
+        "evenement": "Désherbage (pendiméthaline)"
+      },
+      {
+        "jour": 18,
+        "evenement": "1ère fertilisation de couverture (urée)"
+      },
+      {
+        "jour": 22,
+        "evenement": "Désherbage (2-4D)"
+      },
+      {
+        "jour": 40,
+        "evenement": "2e fertilisation de couverture (urée)"
+      },
+      {
+        "jour": 60,
+        "evenement": "Traitement fongicide (épiaison)"
+      },
+      {
+        "jour": 200,
+        "evenement": "Récolte estimée"
+      }
+    ]
   },
   "riz": {
     "varietes": "Sahel 201 (115-120j), Sahel 202 (120j), Sahel 108 (90j)",
@@ -47,7 +80,40 @@
       "ravageurs": "Bonne gestion de la lame d'eau contre les foreurs de tige",
       "traitement_semence": "Semences traitées avec insecticide + fongicide"
     },
-    "recolte": "Drainage 15-20j avant récolte, quand 80% des panicules jaunissent, stockage à 12% d'humidité"
+    "recolte": "Drainage 15-20j avant récolte, quand 80% des panicules jaunissent, stockage à 12% d'humidité",
+    "calculateur": {
+      "unite": "ha",
+      "surface_ref": 1,
+      "engrais_kg": 400,
+      "semences_kg": 120,
+      "rendement_kg": null
+    },
+    "calendrier": [
+      {
+        "jour": 18,
+        "evenement": "Désherbage (propanil + 2,4D)"
+      },
+      {
+        "jour": 21,
+        "evenement": "1ère fertilisation (début tallage)"
+      },
+      {
+        "jour": 24,
+        "evenement": "Repiquage"
+      },
+      {
+        "jour": 45,
+        "evenement": "2e fertilisation (initiation paniculaire)"
+      },
+      {
+        "jour": 70,
+        "evenement": "3e fertilisation (montaison-épiaison)"
+      },
+      {
+        "jour": 120,
+        "evenement": "Récolte estimée"
+      }
+    ]
   },
   "poivron": {
     "sol": "Ni trop lourd ni trop léger, profond, bien drainé, riche en matières organiques",
@@ -74,7 +140,40 @@
       "maladies_virales": "Lutter contre les pucerons, brûler les plantes atteintes"
     },
     "recolte": "60-80 jours après repiquage, rendement 100-300 kg/100m², couper avec le pédoncule",
-    "contraintes": "Ne pas cultiver après tomate/aubergine/piment/pomme de terre avant 3 ans ; protéger du vent ; plante de pleine lumière"
+    "contraintes": "Ne pas cultiver après tomate/aubergine/piment/pomme de terre avant 3 ans ; protéger du vent ; plante de pleine lumière",
+    "calculateur": {
+      "unite": "m2",
+      "surface_ref": 100,
+      "engrais_kg": 13,
+      "semences_kg": null,
+      "rendement_kg": 200
+    },
+    "calendrier": [
+      {
+        "jour": 37,
+        "evenement": "Repiquage"
+      },
+      {
+        "jour": 52,
+        "evenement": "1ère fumure d'entretien"
+      },
+      {
+        "jour": 67,
+        "evenement": "2e fumure d'entretien"
+      },
+      {
+        "jour": 87,
+        "evenement": "3e fumure d'entretien"
+      },
+      {
+        "jour": 97,
+        "evenement": "Récolte estimée (début)"
+      },
+      {
+        "jour": 117,
+        "evenement": "4e fumure d'entretien"
+      }
+    ]
   },
   "piment": {
     "sol": "Sols ni trop légers, bien drainés, riches en matières organiques",
@@ -101,7 +200,28 @@
     },
     "recolte": "Rendement 8-16 (jusqu'à 20) T/ha, récolte hebdo/bimensuelle sur ~18 mois, couper avec le pédoncule à maturité",
     "avantages": "Récolte étalée sur 18 mois, peu d'entretien une fois installé, forte valeur économique",
-    "contraintes": "Mise en place demandant beaucoup de main d'œuvre"
+    "contraintes": "Mise en place demandant beaucoup de main d'œuvre",
+    "calculateur": {
+      "unite": "m2",
+      "surface_ref": 100,
+      "engrais_kg": 7.5,
+      "semences_kg": null,
+      "rendement_kg": 120
+    },
+    "calendrier": [
+      {
+        "jour": 52,
+        "evenement": "Repiquage"
+      },
+      {
+        "jour": 73,
+        "evenement": "1ère fumure d'entretien"
+      },
+      {
+        "jour": 202,
+        "evenement": "Récolte estimée (début)"
+      }
+    ]
   },
   "tomate": {
     "sol": "Sols riches et drainants, meubles, exigeante en fertilisation, craint les excès d'eau racinaire",
@@ -130,7 +250,24 @@
       "acariens": "Blanchiment des serres, soufre mouillable 750g/hl, prédateurs (Macropholus, Amblyseius)",
       "mildiou": "Traitement cuivre 1kg/ha (max 4kg/ha/an en bio), aération des serres"
     },
-    "recolte": "Débute 2,5 mois après plantation, rendement 4,5-8 kg/pied (15% de fruits déclassés)"
+    "recolte": "Débute 2,5 mois après plantation, rendement 4,5-8 kg/pied (15% de fruits déclassés)",
+    "calculateur": {
+      "unite": "ha",
+      "surface_ref": 1,
+      "engrais_kg": 625,
+      "semences_kg": null,
+      "rendement_kg": null
+    },
+    "calendrier": [
+      {
+        "jour": 45,
+        "evenement": "Repiquage / plantation"
+      },
+      {
+        "jour": 120,
+        "evenement": "Récolte estimée (début)"
+      }
+    ]
   },
   "maïs": {
     "sol": "Argilo-limoneux, limoneux argileux, argilo-sableux ou gravillonnaire ; éviter sols trop sableux ou mal drainés",
@@ -159,7 +296,40 @@
       "note": "La lutte génétique (variétés résistantes) reste la meilleure option"
     },
     "recolte": "Manuelle, ~35 jours après floraison générale (75% des spathes jaunies), grains cassants et secs sous la dent",
-    "conservation": "Séchage complet avant stockage ; traitement au Sofagrain ou Actellic (10 g/m²) contre les insectes de stock"
+    "conservation": "Séchage complet avant stockage ; traitement au Sofagrain ou Actellic (10 g/m²) contre les insectes de stock",
+    "calculateur": {
+      "unite": "ha",
+      "surface_ref": 1,
+      "engrais_kg": 350,
+      "semences_kg": 15,
+      "rendement_kg": null
+    },
+    "calendrier": [
+      {
+        "jour": 15,
+        "evenement": "Démariage + 1ère fertilisation (NPK)"
+      },
+      {
+        "jour": 18,
+        "evenement": "1er sarclage"
+      },
+      {
+        "jour": 30,
+        "evenement": "2e fertilisation (urée)"
+      },
+      {
+        "jour": 39,
+        "evenement": "2e sarclage/buttage"
+      },
+      {
+        "jour": 45,
+        "evenement": "3e fertilisation (urée)"
+      },
+      {
+        "jour": 100,
+        "evenement": "Récolte estimée"
+      }
+    ]
   },
   "aubergine": {
     "sol": "Sols légers, riches en matière organique, bien drainés, pH proche de la neutralité",
@@ -186,7 +356,36 @@
       "stemphyliose_alternariose": "Manèbe, mancozèbe, captafol ou oprodione",
       "fletrissement_nematodes": "Rotation culturale, éviter les sols lourds et humides"
     },
-    "recolte": "75-90 jours après repiquage, fruits verts ou blancs selon variété, rendement 10-30 T/ha"
+    "recolte": "75-90 jours après repiquage, fruits verts ou blancs selon variété, rendement 10-30 T/ha",
+    "calculateur": {
+      "unite": "m2",
+      "surface_ref": 100,
+      "engrais_kg": 10,
+      "semences_kg": null,
+      "rendement_kg": 200
+    },
+    "calendrier": [
+      {
+        "jour": 37,
+        "evenement": "Repiquage"
+      },
+      {
+        "jour": 57,
+        "evenement": "1ère fumure d'entretien"
+      },
+      {
+        "jour": 77,
+        "evenement": "2e fumure d'entretien"
+      },
+      {
+        "jour": 97,
+        "evenement": "3e fumure d'entretien"
+      },
+      {
+        "jour": 112,
+        "evenement": "Récolte estimée (début)"
+      }
+    ]
   },
   "concombre": {
     "sol": "Sols lourds (limoneux, argileux), humides mais bien drainés, riches en matières organiques, pH 5,5-6,8",
@@ -215,7 +414,24 @@
       "cercosporiose": "Bénomyl, diazinon ou acéphate",
       "nematodes_galles": "Rotation culturale ou nématicides"
     },
-    "recolte": "40-55 jours, fruits verts de 15-20 cm (diamètre 4-5 cm), rendement 30-50 T/ha (hivernage), 20-40 T/ha (saison sèche)"
+    "recolte": "40-55 jours, fruits verts de 15-20 cm (diamètre 4-5 cm), rendement 30-50 T/ha (hivernage), 20-40 T/ha (saison sèche)",
+    "calculateur": {
+      "unite": "m2",
+      "surface_ref": 100,
+      "engrais_kg": 6,
+      "semences_kg": null,
+      "rendement_kg": 350
+    },
+    "calendrier": [
+      {
+        "jour": 47,
+        "evenement": "Récolte estimée (début)"
+      },
+      {
+        "jour": 49,
+        "evenement": "Fertilisation d'entretien"
+      }
+    ]
   },
   "gombo": {
     "sol": "Sols légers, bien drainés, riches en matières organiques",
@@ -246,7 +462,28 @@
       "fletrissement": "Rotation culturale d'au moins 3 ans",
       "nematodes": "Rotation culturale"
     },
-    "recolte": "Cycle 125-160 jours, récolte débute à 50-65 jours et s'étale sur 55-110 jours, rendement 15-30 T/ha"
+    "recolte": "Cycle 125-160 jours, récolte débute à 50-65 jours et s'étale sur 55-110 jours, rendement 15-30 T/ha",
+    "calculateur": {
+      "unite": "m2",
+      "surface_ref": 100,
+      "engrais_kg": 2,
+      "semences_kg": null,
+      "rendement_kg": 225
+    },
+    "calendrier": [
+      {
+        "jour": 21,
+        "evenement": "Démariage"
+      },
+      {
+        "jour": 57,
+        "evenement": "Récolte estimée (début)"
+      },
+      {
+        "jour": 60,
+        "evenement": "Fertilisation d'entretien"
+      }
+    ]
   },
   "pastèque": {
     "sol": "Sols sablo-limoneux, humides mais bien drainés, riches en matière organique",
@@ -271,7 +508,28 @@
       "thrips_cercosporiose": "Diméthoate, diazinon ou acéphate",
       "nematodes_galles": "Rotation culturale ou nématicides"
     },
-    "recolte": "65-75 jours, fruits mûrs reconnaissables à la vrille desséchée, rendement 200-450 kg/100m²"
+    "recolte": "65-75 jours, fruits mûrs reconnaissables à la vrille desséchée, rendement 200-450 kg/100m²",
+    "calculateur": {
+      "unite": "ha",
+      "surface_ref": 1,
+      "engrais_kg": 250,
+      "semences_kg": 3.75,
+      "rendement_kg": 325
+    },
+    "calendrier": [
+      {
+        "jour": 4,
+        "evenement": "Fertilisation d'entretien"
+      },
+      {
+        "jour": 21,
+        "evenement": "Démariage"
+      },
+      {
+        "jour": 70,
+        "evenement": "Récolte estimée (début)"
+      }
+    ]
   },
   "pomme de terre": {
     "sol": "Sols profonds et bien drainés ; éviter sols lourds et calcaires",
@@ -302,7 +560,32 @@
       "alternariose": "Captafol, manèbe ou mancozèbe-zinc",
       "pourriture_tubercules": "Tubercules sains, ne pas blesser les tiges, ne pas laisser au sol"
     },
-    "recolte": "90-130 jours, 10 jours après dessèchement de 50% du feuillage, rendement 10-30 T/ha (hâtive/tardive), 20-40 T/ha (saison)"
+    "recolte": "90-130 jours, 10 jours après dessèchement de 50% du feuillage, rendement 10-30 T/ha (hâtive/tardive), 20-40 T/ha (saison)",
+    "calculateur": {
+      "unite": "ha",
+      "surface_ref": 1,
+      "engrais_kg": 500,
+      "semences_kg": null,
+      "rendement_kg": 25000
+    },
+    "calendrier": [
+      {
+        "jour": 10,
+        "evenement": "Fertilisation d'entretien (avant buttage)"
+      },
+      {
+        "jour": 12,
+        "evenement": "1er buttage"
+      },
+      {
+        "jour": 33,
+        "evenement": "2e buttage"
+      },
+      {
+        "jour": 110,
+        "evenement": "Récolte estimée"
+      }
+    ]
   },
   "haricot vert": {
     "sol": "Sols légers, sablo-limoneux, bien drainés",
@@ -330,7 +613,28 @@
       "acariens": "Azocyclotin, cyhexatin ou bromopropylate",
       "rouille": "Variétés résistantes, manèbe, mancozèbe ou métirame-zinc"
     },
-    "recolte": "Variable selon le type (filet 16-18 cm, mangetout 12-16 cm, écosser frais 75-85j, écosser sec ~80j) ; rames dès ~70 jours"
+    "recolte": "Variable selon le type (filet 16-18 cm, mangetout 12-16 cm, écosser frais 75-85j, écosser sec ~80j) ; rames dès ~70 jours",
+    "calculateur": {
+      "unite": "m2",
+      "surface_ref": 100,
+      "engrais_kg": 5,
+      "semences_kg": 750,
+      "rendement_kg": null
+    },
+    "calendrier": [
+      {
+        "jour": 20,
+        "evenement": "1ère fumure d'entretien"
+      },
+      {
+        "jour": 40,
+        "evenement": "2e fumure d'entretien"
+      },
+      {
+        "jour": 70,
+        "evenement": "Récolte estimée (début)"
+      }
+    ]
   },
   "oignon": {
     "sol": "Sols pas trop lourds, ni gorgés d'eau, riches en matières organiques bien décomposées",
@@ -356,7 +660,36 @@
       "fusariose": "Rotations longues, bulbes sains, fongicides systémiques",
       "alternariose": "Iprodione, manèbe ou mancozèbe"
     },
-    "recolte": "120-190 jours, récolte 10-15 jours après arrêt des arrosages (feuilles aux 2/3 séchées), rendement 20-50 T/ha"
+    "recolte": "120-190 jours, récolte 10-15 jours après arrêt des arrosages (feuilles aux 2/3 séchées), rendement 20-50 T/ha",
+    "calculateur": {
+      "unite": "m2",
+      "surface_ref": 100,
+      "engrais_kg": 10,
+      "semences_kg": null,
+      "rendement_kg": 350
+    },
+    "calendrier": [
+      {
+        "jour": 47,
+        "evenement": "Repiquage"
+      },
+      {
+        "jour": 67,
+        "evenement": "1ère fumure d'entretien"
+      },
+      {
+        "jour": 87,
+        "evenement": "2e fumure d'entretien"
+      },
+      {
+        "jour": 107,
+        "evenement": "3e fumure d'entretien"
+      },
+      {
+        "jour": 155,
+        "evenement": "Récolte estimée"
+      }
+    ]
   },
   "laitue": {
     "sol": "Sols limoneux, riches en matière organique et azote, pH 6,8-7,2, sensible à la salinité",
@@ -378,6 +711,62 @@
       "septoriose": "Manèbe, mancozèbe ou captafol",
       "nematodes": "Rotations culturales"
     },
-    "recolte": "30 à 45 jours après repiquage selon les variétés"
+    "recolte": "30 à 45 jours après repiquage selon les variétés",
+    "calculateur": {
+      "unite": "m2",
+      "surface_ref": 100,
+      "engrais_kg": 9,
+      "semences_kg": null,
+      "rendement_kg": null
+    },
+    "calendrier": [
+      {
+        "jour": 22,
+        "evenement": "Repiquage"
+      },
+      {
+        "jour": 42,
+        "evenement": "1ère fumure d'entretien"
+      },
+      {
+        "jour": 59,
+        "evenement": "Récolte estimée"
+      },
+      {
+        "jour": 62,
+        "evenement": "2e fumure d'entretien"
+      }
+    ]
+  },
+  "arachide": {
+    "sol": "Sols légers et bien drainés (sableux, limon sableux). Éviter sols lourds, mal drainés ou pierreux.",
+    "climat": "Plante tropicale, température idéale entre 25°C et 35°C, climat chaud et humide pendant la végétation",
+    "varietes": "Taaru, Fleur 11 (résistante au sel, cycle court 90j, la plus utilisée en irrigué), Essamay, Tosset, Rafeet kaar, Sunnu Gaal, Yaakar, Raw Gadu, Jaambar, Kom Kom, Amoul Morom",
+    "semis": {
+      "periode": "Semis après une pluie utile d'au moins 25 mm (pluvial)",
+      "dose_pluvial": "50 à 80 kg/ha de semences décortiquées",
+      "ecartement_pluvial": "Variétés tardives : 30x30 cm ou 60x15 cm ; variétés hâtives : 40x15 cm",
+      "profondeur": "3 cm si sol humide, sinon 5-6 cm",
+      "irrigue_densite": "Billon 1 ligne : 80 cm entre billons, poquets à 15 cm (83 333 plants/ha) ; 2 lignes : billons 120 cm, 20 cm sur la ligne ; 3 lignes : billons 120 cm, 10 cm sur la ligne (250 000 plants/ha)"
+    },
+    "irrigation": {
+      "note": "Culture pluviale traditionnelle possible ; en irrigué, rendement nettement supérieur (jusqu'à 5 T/ha contre 3 T/ha en pluvial)"
+    },
+    "fertilisation": {
+      "fond": "Arachide irriguée : 100 kg/ha de DAP (jour 0) + 50-60 T/ha de fumier",
+      "couverture_1": "150 kg/ha de KCl à 10 jours",
+      "couverture_2": "50 kg/ha d'urée à 25 jours",
+      "couverture_3": "20 kg/ha de soufre + 50 kg/ha de NPK 9-23-30 à 45 jours"
+    },
+    "entretien": {
+      "sarclage": "2 sarclages : le 1er à 15 JAS, le 2e à 30-40 JAS. Ne jamais sarcler après la sortie des gynophores."
+    },
+    "phytosanitaire": {
+      "insectes_stock": "Punaise des arachides, bruche de l'arachide : attaquent denrées et semences stockées",
+      "maladies_fongiques": "Rouille, cercosporiose, anthracnose, fusariose, oïdium : traitements fongicides selon calendrier (insecticide/fongicide alternés vers J0, 15-25, 30-40, 45-50, 60, 70, 80)",
+      "adventices": "Herbicides pré-levée (à base de pendiméthaline ou linuron) ou post-levée selon le type d'adventice (graminées, cypéracées, dicotylédones)",
+      "note": "Utiliser uniquement un produit homologué pour cet usage et respecter son étiquette ainsi que les recommandations des services agricoles compétents."
+    },
+    "recolte": "Dès l'apparition de taches brunes à l'intérieur des coques ; rendement traditionnel ~3,5 T/ha, jusqu'à 5 T/ha en conduite professionnelle irriguée"
   }
 }
